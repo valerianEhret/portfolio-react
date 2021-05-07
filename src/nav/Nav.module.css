@@ -3,4 +3,16 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+    background-color: darkgreen;
+    text-decoration: none;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.link {
+    text-decoration: none;
 }
