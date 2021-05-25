@@ -1,0 +1,14 @@
+.remoteJobBlock {
+    background: darkgreen;
+    height: 30vh;
+}
+
+.block {
+    height:20vh;
+    background: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}

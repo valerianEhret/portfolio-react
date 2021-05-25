@@ -1,0 +1,30 @@
+.footerBlock {
+    background: ivory;
+    height: 20vh;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: cyan;
+    width: 100%;
+    align-items: center;
+    height: 130px;
+}
+
+.socialNetworks {
+    display: flex;
+    width:20%;
+    justify-content: space-between;
+}
+
+.footerContainer {
+    align-items: flex-end;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background: crimson;
+}
