@@ -10,7 +10,7 @@ export function Skills() {
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
                     <Skill title={'JS'} description={'lorem ipsum bl;a bla bla'}/>
-                    <Skill title={'Css'} description={'lorem ipsum text test rqee wsdewfdswfase fsdfsdfsdf sdfsfsdfs sdfsdffsd fsf'}/>
+                    <Skill title={'Css'} description={'lorem ipsum text test rqee wsdewfdswfase fsdfsdfsdf sdfsfsdfs sdfsdffsd fsчыы'}/>
                     <Skill title={'React'} description={'lorem ipsum lorem ipsum lorem ipsum lorem ipsum'}/>
                 </div>
             </div>

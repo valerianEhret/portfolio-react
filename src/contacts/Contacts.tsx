@@ -9,10 +9,10 @@ function Contacts() {
                 <div className={style.block}>
                     <div>Contacts</div>
                     <div className={style.form}>
-                        <form action="">
-                            <div><input/></div>
-                            <div><input/></div>
-                            <div> <textarea/></div>
+                        <form action="" className={style.contacts_form}>
+                          <input type='text'  />
+                          <input type='text'  />
+                            <textarea/>
                         </form>
                     </div>
                     <button>Send</button>
