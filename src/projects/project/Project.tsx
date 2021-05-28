@@ -9,7 +9,7 @@ type ProjectPropsType = {
 export function Project(props:ProjectPropsType) {
     return (
         <div className={style.project}>
-            <div className={style.project_Img_Container}>
+            <div className={style.img_Container}>
                 <a href='#' className={style.button}>see</a>
             </div>
             <div className={style.project_title}>

@@ -8,7 +8,7 @@ function Contacts() {
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} `}>
                 <div className={style.block}>
-                    <div>Contacts</div>
+                    <h2>Contacts</h2>
                     <div className={style.form}>
                         <form action="" className={style.contacts_form}>
                           <input type='text'  />

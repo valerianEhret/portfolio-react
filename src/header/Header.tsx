@@ -5,11 +5,9 @@ import styleContainer from '../common/styles/Container.module.css'
 
 function Header() {
     return (
-        // <div className={styleContainer.container}>
             <div className={style.header}>
                 <Nav/>
             </div>
-         // </div>
 
     )
 }

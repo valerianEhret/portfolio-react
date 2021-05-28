@@ -9,8 +9,8 @@ function Main() {
             <div className={styleContainer.container}>
                 <div className={style.intro} >
                     <span>Hi there</span>
-                    <h1>I am Valerian Ehret</h1>
-                    <p>Front-end developer</p>
+                    <h2>I am Valerian Ehret</h2>
+                    <h1>Front-end developer</h1>
                 </div>
                 <div className={style.photo}></div>
             </div>
