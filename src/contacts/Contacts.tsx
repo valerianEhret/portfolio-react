@@ -4,6 +4,7 @@ import style from './Contacts.module.css'
 
 function Contacts() {
     return (
+
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} `}>
                 <div className={style.block}>
