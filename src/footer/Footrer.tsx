@@ -6,8 +6,8 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <div className={style.block}>
-                    <span>Valerian Ehret</span>
+                {/*<div className={style.block}>*/}
+                    <h2 className={style.title}>Valerian Ehret</h2>
                     <div className={style.socialNetworks}>
                         <div className={style.icon}>1</div>
                         <div className={style.icon}>2</div>
@@ -16,8 +16,8 @@ function Footer() {
                         <div className={style.icon}>5</div>
 
                     </div>
-                    <span>2021 beingeorge, All Rights Reserved</span>
-                </div>
+                    <span className={style.copyright}>2021 beingeorge, All Rights Reserved</span>
+                {/*</div>dsaf*/}
 
 
             </div>

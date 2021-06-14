@@ -1,9 +1,8 @@
-.remoteJobBlock {
+.hireBlock {
     background: darkgreen;
-    height: 30vh;
 }
 
-.block {
+.hireContainer {
     height:20vh;
     background: cyan;
     display: flex;
@@ -11,4 +10,13 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
+
+.hireBtn {
+    padding: 10px 20px;
+    background-color: cadetblue;
+}
+
+.title {
+    background-color: darkgreen;
 }
