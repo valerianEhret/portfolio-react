@@ -1,24 +1,22 @@
 import React from 'react'
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
 type ProjectPropsType = {
     title: string
-    description:string
+    description: string
+    style: any
 }
 
-export function Project(props:ProjectPropsType) {
+export function Project(props: ProjectPropsType) {
     return (
         <div className={style.project}>
-            <div className={style.image}>
+            <div className={style.image} style={props.style}>
                 <a href='#' className={style.viewBtn}>see</a>
             </div>
-            <div className={style.project_title}>
-                <h3 className={style.title}>{props.title}</h3>
+            <div className={style.projectInfo}>
+                <h3 className={style.projectTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
             </div>
-            <div className={style.description}>
-                <span >{props.description}</span>
-            </div>
-
         </div>
     )
 }

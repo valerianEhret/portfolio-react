@@ -2,14 +2,14 @@ import React from 'react'
 import style from './Title.module.css'
 
 type TitlePropsType = {
-    title:string
+    title: string
 }
 
-function Title(props:TitlePropsType) {
+function Title(props: TitlePropsType) {
     return (
-                <div className={style.title}>
-                    <h2 >{props.title}</h2>
-                </div>
+        <div className={style.title}>
+            <h2>{props.title}</h2>
+        </div>
     )
 }
 

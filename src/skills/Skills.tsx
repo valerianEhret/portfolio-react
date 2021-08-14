@@ -9,7 +9,6 @@ export function Skills() {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
-                {/*<h2 className={style.title}>Skills</h2>*/}
                 <div className={style.skills}>
                     <Skill title={'JS'} description={'lorem ipsum bl;a bla bla'}/>
                     <Skill title={'Css'} description={'lorem ipsum text test rqee wsdewfdswfase fsdfsdfsdf sdfsfsdfs sdfsdffsd fsчыы'}/>
