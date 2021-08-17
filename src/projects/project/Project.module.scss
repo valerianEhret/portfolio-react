@@ -1,30 +1,31 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .project {
     width: 450px;
     display: flex;
     flex-direction: column;
-    background-color: #252527;
+    background-color: $bgSecondary;
 
     .image {
         height: 300px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @include bgSettings();
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
 
         .viewBtn {
-            background: silver;
-            color: cyan;
+            background: $primaryColor;
             padding: 10px 25px;
             text-decoration: none;
             text-align: center;
             user-select: none;
             position: relative;
             z-index: 1;
+            color:$textColor ;
         }
-        .&::before {
+        &::before {
             position: absolute;
             content: '';
             background-color: black;
@@ -40,20 +41,15 @@
         padding: 25px 20px;
 
         .projectTitle {
-            font-family: "Josefin Sans", sans-serif;
-            font-size: 16px;
+            @include text($TitleFontFamily,16px,1.2,400 );
             letter-spacing: 1px;
             margin: 0 0 5px;
-            line-height: 1.2;
             color: #fff;
         }
 
         .description {
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.8;
-            font-weight: 400;
-            font-size: 12px;
-            color: #fff;
+            @include text($TextFontFamily,12px, 1.8, 400);
+            color: $textColor;
         }
     }
 }

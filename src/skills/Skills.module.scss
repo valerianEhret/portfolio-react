@@ -1,0 +1,32 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+
+.skillsBlock {
+    background-color: $bgPrimary;
+
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+
+        .skills {
+            border: 1px solid;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            background-color: $bgSecondary;
+        }
+    }
+}
+
+
+//.title {
+//background-color: cornflowerblue;
+
+
+
+
+
