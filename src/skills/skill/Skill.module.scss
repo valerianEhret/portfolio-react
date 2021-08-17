@@ -1,17 +1,36 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
 .skill {
     width: 250px;
-    background-color: cyan;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, flex-start, center,wrap);
+    background-color: $bgPrimary;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    color:$textColor;
+
+    .icon {
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+    }
+
+    .skillInfo {
+        padding: 25px 20px;
+
+        .skillTitle {
+            @include text($TitleFontFamily,16px,1.2,400 );
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+            color: #fff;
+        }
+
+        .description {
+            @include text($TextFontFamily,12px, 1.8, 400);
+            color: $textColor;
+        }
+    }
 }
 
-.icon {
-    margin: 10px;
-    width: 60px;
-    height: 60px;
-    background-color: black;
-}
