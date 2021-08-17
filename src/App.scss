@@ -1,4 +1,6 @@
+@import './common/styles/sass/variables';
+
 .App {
   text-align: center;
-  background-color: red;
+  background-color: $bgPrimary;
 }

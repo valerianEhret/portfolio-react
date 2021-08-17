@@ -1,0 +1,8 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.header {
+    height: 80px;
+    //background-color: aquamarine;
+    @include flex(row, flex-end, center, no-wrap);
+}

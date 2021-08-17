@@ -17,9 +17,6 @@ function Footer() {
 
                     </div>
                     <span className={style.copyright}>2021 beingeorge, All Rights Reserved</span>
-                {/*</div>dsaf*/}
-
-
             </div>
 
         </div>

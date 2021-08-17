@@ -4,27 +4,16 @@
 }
 
 .footerContainer {
-    /*align-items: flex-end;*/
     flex-direction: column;
     justify-content: flex-start;
 }
 
-/*.block {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
-/*    background: cyan;*/
-/*    width: 100%;*/
-/*    align-items: center;*/
-/*    height: 130px;*/
-/*}*/
 
 .socialNetworks {
     display: flex;
     width:250px;
     justify-content: space-between;
    align-items: center;
-
 }
 
 .icon {
