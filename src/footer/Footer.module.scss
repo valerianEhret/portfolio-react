@@ -1,0 +1,30 @@
+.footerBlock {
+    //background: ivory;
+    /*height: 20vh;*/
+
+    .footerContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .socialNetworks {
+        display: flex;
+        width: 250px;
+        justify-content: space-between;
+        align-items: center;
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            //background: crimson;
+        }
+    }
+}
+
+
+
+
+
+
+
+

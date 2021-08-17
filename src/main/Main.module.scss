@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+
+.mainBlock {
+    height: 100vh;
+    //background-color: #d5eae4;
+}
+
+
+
+.intro {
+    width: 300px;
+    //background-color: antiquewhite;
+    color: $textColor;
+    font-family: $TitleFontFamily;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+    @include bgSettings();
+}
+

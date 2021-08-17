@@ -1,9 +1,16 @@
 import React from 'react'
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
+import avatar from '../assets/images/avatar.jpg'
 
 
 function Main() {
+
+    const photo = {
+        backgroundImage: `url(${avatar})`,
+    };
+
+
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
@@ -12,7 +19,7 @@ function Main() {
                     <h2>I am Valerian Ehret</h2>
                     <h1>Front-end developer</h1>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo} style={photo}></div>
             </div>
 
         </div>

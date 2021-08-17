@@ -1,0 +1,31 @@
+.contactsBlock {
+    //background: cadetblue;
+
+    .contactsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .contactsForm {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            background-color: silver;
+
+            & input, .contactsForm textarea {
+                width: 100%;
+            }
+        }
+
+        .submitBtn {
+            padding: 10px 20px;
+            background-color: crimson;
+        }
+    }
+}
+
+
+
+
+
+
+
