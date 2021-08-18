@@ -3,23 +3,26 @@
 
 
 .mainBlock {
-    height: 100vh;
-    //background-color: #d5eae4;
+    min-height: 100vh;
+   @include flex(row,center,center,nowrap);
+    padding: 100px 0;
+
+    .intro {
+        width: 300px;
+        //background-color: antiquewhite;
+        color: $textColor;
+        font-family: $TitleFontFamily;
+    }
+    .photo {
+        width: 300px;
+        height: 400px;
+        background-color: azure;
+        @include bgSettings();
+    }
+
 }
 
 
 
-.intro {
-    width: 300px;
-    //background-color: antiquewhite;
-    color: $textColor;
-    font-family: $TitleFontFamily;
-}
 
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: azure;
-    @include bgSettings();
-}
 
