@@ -3,9 +3,9 @@
 
 
 .mainBlock {
-      min-height: 100vh;
-     @include flex(row,center,center,nowrap);
-      padding: 100px 0;
+  min-height: 100vh;
+  @include flex(row,center,center,nowrap);
+  padding: 100px 0;
   .container {
     @include container();
     @include flex(row,space-around,center,wrap);
@@ -76,31 +76,3 @@
 
   }
 }
-
-
-
-
-//.mainBlock {
-//    min-height: 100vh;
-//   @include flex(row,center,center,nowrap);
-//    padding: 100px 0;
-//
-//    .intro {
-//        width: 300px;
-//        //background-color: antiquewhite;
-//        color: $textColor;
-//        font-family: $TitleFontFamily;
-//    }
-//    .photo {
-//        width: 300px;
-//        height: 400px;
-//        background-color: azure;
-//        @include bgSettings();
-//    }
-//
-//}
-
-
-
-
-
