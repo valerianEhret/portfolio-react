@@ -38,27 +38,6 @@ function Footer() {
                 <span className={styles.copyright}>2021 All Rights Reserved.</span>
             </div>
         </div>
-
-
-
-
-
-
-        // <div className={style.footerBlock}>
-        //     <div className={`${styleContainer.container} ${style.footerContainer}`}>
-        //             <h2 className={style.title}>Valerian Ehret</h2>
-        //             <div className={style.socialNetworks}>
-        //                 <div className={style.icon}>1</div>
-        //                 <div className={style.icon}>2</div>
-        //                 <div className={style.icon}>3</div>
-        //                 <div className={style.icon}>4</div>
-        //                 <div className={style.icon}>5</div>
-        //
-        //             </div>
-        //             <span className={style.copyright}>2021 beingeorge, All Rights Reserved</span>
-        //     </div>
-        //
-        // </div>
     )
 }
 
