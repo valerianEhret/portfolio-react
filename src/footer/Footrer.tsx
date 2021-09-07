@@ -15,7 +15,7 @@ function Footer() {
                 <Title title={'Valerian Ehret'}/>
                 <div className={styles.socialIcons}>
                     <div className={styles.socialIcon}>
-                        <a href='https://t.me/ValerianEhret'>
+                        <a href='https://t.me/ValerianEhret' id={"links"}>
                             <img src={telegramIcon} alt=''/>
                         </a>
                     </div>

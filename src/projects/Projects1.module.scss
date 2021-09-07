@@ -1,0 +1,29 @@
+@import '../common/styles/sass/mixins';
+
+.projectsBlock {
+  padding: 5rem 0 3.75rem;
+
+
+  .projectsContainer {
+    @include flex(column, flex-start, center, wrap);
+    flex-wrap: wrap;
+
+    .projects {
+      column-count: 4;
+      column-gap: 1rem;
+      margin: 3.75rem 6.25rem 0;
+      @media only screen and (max-width: 480px) {
+        column-count: 1;
+        margin: 3.75rem 1.25rem 0;
+      }
+      @media only screen and (min-width: 481px) and (max-width: 620px) {
+        column-count: 2;
+        margin: 3.75rem 1.25rem 0;
+      }
+      @media only screen and (min-width: 621px) and (max-width: 1023px) {
+        column-count: 3;
+        margin: 3.75rem 0 0;
+      }
+    }
+  }
+}

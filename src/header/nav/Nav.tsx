@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Nav.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
+import {Link} from "react-scroll";
 
 function Nav() {
 
@@ -12,8 +13,8 @@ function Nav() {
                 <a className={style.link} href="">main</a>
                 <a className={style.link} href="">skills</a>
                 <a className={style.link} href="">projects</a>
-                <a className={style.link} href="">contacts</a>
-                <a className={style.link} href="">links</a>
+                <a className={style.link} href="#contacts">contacts</a>
+                <a className={style.link} href="#links">links</a>
             </nav>
         </div>
 
