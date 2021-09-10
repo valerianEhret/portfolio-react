@@ -6,7 +6,7 @@ import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footrer";
 import Hire from "./hire/Hire";
 import {Main2} from "./main/Main2";
-import Projects1 from "./projects/Projects1";
+import Projects from "./projects/Projects";
 
 
 
@@ -17,8 +17,8 @@ function App() {
             <Header/>
             <Main2/>
             <Skills/>
-            <Projects1/>
-            <Hire/>
+            <Projects/>
+            {/*<Hire/>*/}
             <Contacts/>
             <Footer/>
         </div>

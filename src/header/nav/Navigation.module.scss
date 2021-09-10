@@ -1,0 +1,64 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+
+
+.navigation {
+@include flex(row, flex-end, center, nowrap);
+  background-color: $bgPrimary;
+  padding: 0.625rem 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  .container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    @include flex(row, flex-end, center, nowrap);
+
+    @media screen and (min-width: 565px) {
+      .burgerMenu {
+        display: none;
+      }
+    }
+    .link {
+
+
+      $textColor:$textColor;
+      @include text($TitleFontFamily, 0.875rem, 1.8, 500);
+      text-decoration: none;
+      padding: 0 0.31rem;
+      text-transform: uppercase;
+      position: relative;
+      margin-right: 1.75rem;
+      cursor: pointer;
+      letter-spacing: 0.40px;
+      color: $textColor;
+
+      &:hover {
+        @include text($TitleFontFamily, 0.875rem, 1.8, 500);
+        letter-spacing: 0.40px;
+        color: $textColor;
+      }
+    }
+
+    .active {
+      @include text($TitleFontFamily, 0.875rem, 1.8, 500);
+      letter-spacing: 0.40px;
+      color: $textColor;
+    }
+  }
+
+  @media screen and (max-width: 564px) {
+    .link {
+      display: none;
+    }
+  }
+}
+
+
+
+
+

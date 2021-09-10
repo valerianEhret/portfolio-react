@@ -1,0 +1,94 @@
+@import './src/common/styles/sass/mixins';
+@import './src/common/styles/sass/variables';
+
+
+.menu {
+  z-index: 9999;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease 0s;
+  transform: translateX(130%);
+}
+
+.menuActive {
+  z-index: 9999;
+  position: fixed;
+  width: 300px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transition: all 0.4s ease 0s;
+  @media screen and (max-width: 767px) {
+    & {
+      width: 250px;
+    }
+  }
+}
+
+
+.menuContent {
+  height: 100%;
+  background: $bgPrimary none repeat scroll 0 0;
+  @include flex(column,flex-start,center,nowrap );
+  transition: all 0.4s;
+
+  .closeMenu {
+    cursor: pointer;
+    font-size: 1.875rem;
+    padding: 0.625rem;
+    position: absolute;
+    left: 0;
+    color: $textColor;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+
+  .menuHeader {
+    @include text($TitleFontFamily, 2rem, 1.8, 800);
+    //@include text($TitleFontFamily, 2rem, 800, 1px, $primaryColor);
+    letter-spacing: 1px;
+    color:red;
+    padding: 5rem 0;
+    border-bottom: 1px solid $textColor;
+    width: 100%;
+    text-transform: capitalize;
+  }
+
+  .items {
+    width: 100%;
+    font-size: 1.5rem;
+    color: $primaryColor;
+
+    .oneItem {
+      width: 100%;
+      border-bottom: 1px solid $textColor;
+      text-align: center;
+
+      .link {
+        display: block;
+        padding: 0.82rem 0;
+        //@include text($TitleFontFamily, 1rem, 600, 2px, $bgSecondary);
+        @include text($TitleFontFamily, 2rem, 1.8, 600);
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: $bgSecondary none repeat scroll 0 0;
+        }
+      }
+
+      .active {
+        background: $bgSecondary none repeat scroll 0 0;
+      }
+    }
+  }
+}

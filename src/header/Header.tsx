@@ -1,12 +1,11 @@
 import React from 'react'
 import style from './Header.module.scss'
-import styleContainer from '../common/styles/Container.module.css'
-import Nav from "./nav/Nav";
+import Navigation from "./nav/Navigation";
 
 function Header() {
     return (
             <div className={style.header}>
-                <Nav/>
+                <Navigation/>
             </div>
 
     )

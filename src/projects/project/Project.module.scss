@@ -1,71 +1,59 @@
 @import './src/common/styles/sass/variables';
-@import './src/common/styles/sass/mixins';
 
 .project {
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    background-color: $bgSecondary;
-
-    .image {
-        height: 300px;
-        @include bgSettings();
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-
-        .viewBtn {
-            background: $primaryColor;
-            padding: 10px 25px;
+  width: 95%;
+  margin-bottom: 1rem;
+  display: inline-block;
+  &:nth-child(4n+1) .img, &:nth-child(4n) .img {
+    height: 350px;
+  }
+  .img {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    .overlay {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+      &:hover {
+        opacity: 1;
+      }
+      .description {
+        padding: 1rem;
+        font-family: $TextFontFamily;
+        h3 {
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 1.25rem;
+          color: $bgSecondary;
+        }
+        p {
+          color: $textColor;
+          margin-bottom: 1.5rem;
+        }
+        .links{
+          display: flex;
+          flex-direction: column;
+          .btnDemo,.btnCode {
+            margin-bottom: 0.3rem;
             text-decoration: none;
-            text-align: center;
-            user-select: none;
-            position: relative;
-            z-index: 1;
-            color:$textColor ;
+            border: 1px solid $primaryColor;
+            outline: 0;
+            transition: .25s;
+            text-transform: uppercase;
+            padding: 0.4rem 0.75rem;
+            cursor: pointer;
+            color: $primaryColor;
+            &:hover {
+              background-color: #2b2b2b;
+            }
+          }
+
         }
-        &::before {
-            position: absolute;
-            content: '';
-            background-color: black;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            opacity: 0.5;
-        }
+      }
     }
 
-    .projectInfo {
-        padding: 25px 20px;
-
-        .projectTitle {
-            @include text($TitleFontFamily,16px,1.2,400 );
-            letter-spacing: 1px;
-            margin: 0 0 5px;
-            color: #fff;
-        }
-
-        .description {
-            @include text($TextFontFamily,12px, 1.8, 400);
-            color: $textColor;
-        }
-    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

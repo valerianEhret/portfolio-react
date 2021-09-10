@@ -1,0 +1,13 @@
+@import "./src/common/styles/sass/variables";
+
+.burgerBtn {
+  cursor: pointer;
+  margin-left: 1rem;
+  position: relative;
+  font-size: 0.875rem;
+  color: $textColor;
+
+  &:hover {
+    color: red;
+  }
+}

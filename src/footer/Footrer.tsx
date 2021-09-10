@@ -12,7 +12,6 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
-                <Title title={'Valerian Ehret'}/>
                 <div className={styles.socialIcons}>
                     <div className={styles.socialIcon}>
                         <a href='https://t.me/ValerianEhret' id={"links"}>
