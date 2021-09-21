@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 export function Main2() {
 
     return (
-        <div className={styles.mainBlock}>
+        <div className={styles.mainBlock} id={'main'}>
             <div className={styles.container}>
                 <Fade>
                     <div className={styles.greeting}>

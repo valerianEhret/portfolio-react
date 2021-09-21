@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 export const Contacts = () => {
     return (
-        <div className={styles.contactsBlock}>
+        <div className={styles.contactsBlock} id={'contacts'}>
             <div className={styles.container}>
                 <a id={"#contacts"}></a>
                 <Title title={'Contacts'}/>

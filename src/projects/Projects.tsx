@@ -8,6 +8,8 @@ import imgFridayProject from '../assets/images/Friday_project.jpg';
 import imgFutureProject from '../assets/images/future_project.jpg';
 import imgFutureProject1 from '../assets/images/future_project1.jpg';
 import imgReactTasks from '../assets/images/react_tasks.jpg';
+import imgFutureProject2 from '../assets/images/future_project2.jpg';
+import imgSocialNetwork from '../assets/images/socialNetwork_.jpg';
 import {Project} from "./project/Project";
 
 function Projects() {
@@ -32,8 +34,8 @@ function Projects() {
                     <Project title={"Counter"}
                              img={imgCounter}
                              description={"React, Redux, TS"}
-                             linkDemo={"https://github.com/valerianEhret/Counter"}
-                             linkCode={"https://github.com/valerianEhret/Counter"}/>
+                             linkDemo={"http://valerianEhret.github.io/newcounter/"}
+                             linkCode={"https://github.com/valerianEhret/newcounter"}/>
 
                     <Project title={"Cards"}
                              img={imgFridayProject}
@@ -52,6 +54,18 @@ function Projects() {
                              description={"...in progress"}
                              linkDemo={"https://github.com/valerianEhret"}
                              linkCode={"https://github.com/valerianEhret"}/>
+
+                    <Project title={"Future Project"}
+                             img={imgFutureProject2}
+                             description={"...in progress"}
+                             linkDemo={"https://github.com/valerianEhret"}
+                             linkCode={"https://github.com/valerianEhret"} />
+
+                    <Project title={"Future Project"}
+                             img={imgSocialNetwork}
+                             description={"React, Redux, TS, RestAPI, Thunk"}
+                             linkDemo={"https://github.com/valerianEhret"}
+                             linkCode={"https://github.com/valerianEhret"} />
                 </div>
             </div>
         </div>
