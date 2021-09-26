@@ -8,7 +8,7 @@
     @include flex(row,center, stretch, nowrap);
     .container {
         @include flex(column, flex-start, center, nowrap);
-        padding: 100px 0 20px;
+        padding: 5px 0 20px;
         .socialIcons{
             @include flex(row, space-between, center, nowrap);
             width: 400px;
