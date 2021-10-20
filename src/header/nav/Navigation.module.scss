@@ -5,7 +5,7 @@
 
 .navigation {
 @include flex(row, flex-end, center, nowrap);
-  background-color: $bgPrimary;
+  background-color: $bgSecondary;
   padding: 0.625rem 0;
   width: 100%;
   position: fixed;

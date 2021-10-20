@@ -3,6 +3,6 @@
 
 .header {
     height: 80px;
-    background-color: $bgSecondary;
+    background-color: $bgPrimary;
     @include flex(row, flex-end, center, no-wrap);
 }

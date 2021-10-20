@@ -3,7 +3,7 @@
 
 
 .footer {
-    background: $bgSecondary;
+    background: $bgPrimary;
     min-height: 200px;
     @include flex(row,center, stretch, nowrap);
     .container {

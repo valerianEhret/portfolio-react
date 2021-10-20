@@ -34,11 +34,13 @@ export const Contacts = () => {
         },
 
         onSubmit: values => {
-            // alert(`${values.name} ${values.email} ${values.message}`);
             api.sendMessage(values.name, values.email, values.message)
                 .then(() => {
                     alert('your message has been sent');
                 })
+                .catch( (e)=> {
+                    console.log(e)
+                }  )
             // formik.resetForm();
         }
 

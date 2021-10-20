@@ -43,11 +43,11 @@ function Projects() {
                              linkDemo={"http://valerianEhret.github.io/cards/"}
                              linkCode={"https://github.com/valerianEhret/cards"}/>
 
-                    <Project title={"Future Project"}
+                    <Project title={"Books"}
                              img={imgFutureProject}
-                             description={"...in progress"}
-                             linkDemo={"https://github.com/valerianEhret"}
-                             linkCode={"https://github.com/valerianEhret"}/>
+                             description={"React, Redux, TS, Thunk, Ant Design"}
+                             linkDemo={"http://valerianEhret.github.io/books/"}
+                             linkCode={"https://github.com/valerianEhret/books"}/>
 
                     <Project title={"Future Project"}
                              img={imgFutureProject1}
